@@ -593,6 +593,57 @@
 		</ItemSet>
 	</Job>
 
+	<Job identifier="coalition_riotunit" onlyjobspecificdialog="false" minnumber="0" maxnumber="0" initialcount="0" hiddenjob="true" uicolor="0.4,0.76,0.8">
+		<Jobicon>
+			<sprite texture="Content/UI/MainIconsAtlas.png" sourcerect="256,256,128,128" origin="0.5,0.5" />
+		</Jobicon>
+		<JobiconSmall>
+			<sprite texture="Content/UI/CommandUIAtlas.png" sourcerect="612,640,28,28" origin="0.5,0.5" />
+		</JobiconSmall>
+		<Skills>
+			<Skill identifier="weapons" level="90,100" primary="true" />
+			<Skill identifier="medical" level="80,90" />
+			<Skill identifier="mechanical" level="40,50" />
+			<Skill identifier="electrical" level="40,50" />
+			<Skill identifier="helm" level="30,40" />
+		</Skills>
+		<ItemSet>
+			<Item identifier="idcard" equip="true" />
+			<Item identifier="headset" equip="true" />
+			<Item identifier="scp_heavyuniform" equip="true" />
+			<Item identifier="ballistichelmet3" equip="true" />
+			<Item identifier="sgt_securityvest" equip="true" />
+		 <Item identifier="stunbaton"  equip="true" >
+				<Item identifier="fulguriumbatterycell" />
+			</Item>
+			<Item identifier="riotshield" equip="true" />
+			<Item identifier="fulguriumbatterycell" />
+			<Item identifier="fulguriumbatterycell" />	
+			<Item identifier="fenitergasgrenade5" />
+			<Item identifier="fenitergasgrenade5" />
+			<Item identifier="handcuffs" />
+			<Item identifier="handcuffs" />
+			<Item identifier="handcuffs" />
+			<Item identifier="antibleeding2" />
+			<Item identifier="antibleeding2" />
+			<Item identifier="antibleeding2" />
+			<Item identifier="antibleeding2" />
+			<Item identifier="antibleeding2" />
+			<Item identifier="antibleeding2" />
+			<Item identifier="antibleeding2" />
+			<Item identifier="antibleeding2" />
+			<Item identifier="stypticpowder" />
+			<Item identifier="stypticpowder" />
+			<Item identifier="antibloodloss1" />
+			<Item identifier="antibloodloss1" />
+			<Item identifier="deusizine" />
+			<Item identifier="deusizine" />
+			<Item identifier="hyperzine" />
+			<Item identifier="antipsychosis" />
+
+		</ItemSet>
+	</Job>
+
 	<!--!coalition end!-->
 
 	<!--!survivors start!-->
